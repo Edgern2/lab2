@@ -6,10 +6,13 @@ def calculate_bmi(h,w):
     print("Your BMI =" + str(BMI))
     if BMI<18.5:
         print ("Skinny")
+        return -1
     elif 18.5<=BMI<=25.0:
         print("Normal")
+        return 0
     elif BMI > 25.0:
         print("Fatt")
+        return 1
 
 
 
